@@ -36,3 +36,33 @@ const myFunction = function(){
     console.log("Hello World");
     
 }
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory  ( Primitive ) and Heap Memory ( Non-Primitive )
+
+let myYoutubename = "RadhikaSonagra"
+
+let anothername = myYoutubename
+anothername = "sonagraRadhika"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "radhika@google.com",
+    upi: "user1@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sonagea@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+/* Notes:  
+         in stack value copy and call 
+           heap in use Reference
+ */
+
